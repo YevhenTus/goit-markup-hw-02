@@ -39,7 +39,8 @@
   
 }
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus
+{
 color: var(--accent-color);}
 
 
