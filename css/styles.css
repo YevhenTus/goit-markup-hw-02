@@ -32,12 +32,16 @@
 
 .site-nav .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--accent-color);
-}
+color: var(--accent-color);}
+
 
 .link-cont{
   font-weight: 500;
@@ -50,7 +54,7 @@
   color: var(--accent-color);}
 /* Hero */
 .hero-btn{
-  font-family: 'Roboto';
+  font-family:inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
@@ -132,8 +136,11 @@ background: #2F303A;
 .logo-studio{
   color: var(--white-color);
 }
-.address-item{
+.addres-global{
   font-style: normal;
+
+}
+.address-item{
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
